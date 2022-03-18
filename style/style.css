@@ -1,0 +1,176 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  height: 100%;
+  margin: 0px;
+}
+
+.Header {
+  background-image: url("../images/mobile/image-header.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.Header header {
+  position: absolute;
+}
+
+.Header header nav {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+}
+
+.Header header nav .logo {
+  width: 124px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.Header header nav .menu-toggle {
+  border: none;
+  background-color: transparent;
+  margin-right: -60%;
+}
+
+.Header header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 10px;
+  margin-top: 5px;
+  display: none;
+}
+
+.Header header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  margin: 80px;
+}
+
+.Header header div h1 {
+  font-size: 35px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 2.5px;
+}
+
+.Header header div .title1 {
+  word-spacing: 5px;
+}
+
+.Header header div .title2 {
+  margin-top: -25%;
+}
+
+.Header header div .arrow {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.egg-image, .glass {
+  max-width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.egg-image {
+  background-image: url("../images/mobile/image-transform.jpg");
+  margin-bottom: 25px;
+}
+
+.glass {
+  background-image: url("../images/mobile/image-stand-out.jpg");
+  margin-top: 50px;
+}
+
+.text-p1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.text-p1 p {
+  margin: 0px 10px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.text-p1 a {
+  text-decoration: none;
+  font-weight: 700;
+  position: relative;
+  font-size: 20px;
+}
+
+.text-p1 a::before {
+  content: '';
+  background-color: #fcfc49;
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 4px;
+  z-index: -1;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.text-p1 a:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
